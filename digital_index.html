@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Digital Front Designs</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="description" content="Crafting digital pixel-perfect designs, every time.">
+<meta name="keywords" content="Business, web design, websites, coding">
+<meta name="author" content="Karlon Lewis">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link rel="shortcut icon" type="image/x-icon" href="Digital Front Designs Logo Borderless Transparent.png" width="60" height="60">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+<style>
+  body {
+    background: rgb(146, 2, 212);
+    color: rgb(9, 17, 47);
+    font-family: ADLaM Display;
+  }
+
+  .c {
+    color: rgb(9, 17, 47);
+    font-size: large;
+  }
+
+  pre {
+    display: block;
+    font-family: ADLaM Display;
+    margin: 1em 0;
+    background: rgb(146, 2, 212);
+    border: none;
+    font-size: 70px;
+    color: white;
+  }
+
+  .footer-text {
+    font-size: 8.5px;
+  }
+
+  .social-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+
+  .reviews{
+      background:;
+      padding: 8px;
+      }
+</style>
+</head>
+<body>
+
+<div class="w3-wide w3-bar">
+  <a href="digital_index.html" class="w3-bar-item w3-button">
+    <h2>
+      <img src="Digital Front Designs Logo Black Borderless Transparent.png" alt="Digital Front Designs" width="220" height="220">
+      <b>Digital front designs</b>
+    </h2>
+  </a>
+
+  <div class="w3-right w3-dropdown-hover">
+    <button class="w3-button">
+      <i class="glyphicon glyphicon-menu-hamburger w3-center w3-padding-16"></i>
+    </button>
+    <div class="w3-dropdown-content w3-bar-block w3-border" style="right:0">
+      <a href="#" class="w3-bar-item w3-button">Services</a>
+      <a href="#" class="w3-bar-item w3-button">Booking</a>
+      <a href="#" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+<br>
+<h1><pre><b>Crafting digital pixel-perfect 
+designs, every time</b></pre></h1>
+
+<h3 class="w3-padding"><b>PROJECTS</b></h3>
+
+<br>
+
+<div class="w3-content w3-display-container" style="max-width:1080px">
+  <img class="mySlides" src="Client First Home 1.png" style="width:100%">
+  <img class="mySlides" src="Client First Home 2.png" style="width:100%">
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+// Auto-advance slides
+setInterval(function() {
+  plusDivs(1);
+}, 5000); // Change image every 5 seconds
+</script>
+
+<br>
+<br>
+<br>
+<br>
+
+<!-- ... (previous code remains unchanged) ... -->
+
+<div class="reviews">
+  <h2>Customer Reviews</h2>
+  <br>
+  <div class="w3-content w3-display-container" style="max-width:1460px">
+    <div class="review-slide">
+      <div class="w3-container w3-red">
+        <div class="w3-panel">
+          <span style="font-size:150px;line-height:0.6em;opacity:0.2">&#10077;</span>
+          <p class="w3-xlarge" style="margin-top:-40px">
+            <i>"Wow! All I can do is be amazed by all the effort that has been put into this project! I don't know how you do it, but keep going!"</i>
+          </p>
+          <span class="w3-right" style="font-size:150px;line-height:0.6em;opacity:0.2">&#10078;</span>
+          <p><i>K. Philip</i></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="review-slide">
+      <div class="w3-container w3-orange">
+        <div class="w3-panel">
+          <span style="font-size:150px;line-height:0.6em;opacity:0.2">&#10077;</span>
+          <p class="w3-xlarge" style="margin-top:-40px">
+            <i>"Absolutely amazing job, completely exceeded my expectations, if anybody asks where I had it done I won't be ashamed to mention you!"</i>
+          </p>
+          <span class="w3-right" style="font-size:150px;line-height:0.6em;opacity:0.2">&#10078;</span>
+          <p><i>R. Helma</i></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ... (footer and closing tags remain unchanged) ... -->
+
+<script>
+// Existing script for project slides
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+// Auto-advance project slides
+setInterval(function() {
+  plusDivs(1);
+}, 5000); // Change image every 5 seconds
+
+// New script for review slides
+var reviewIndex = 1;
+showReviews(reviewIndex);
+
+function plusReviews(n) {
+  showReviews(reviewIndex += n);
+}
+
+function showReviews(n) {
+  var i;
+  var x = document.getElementsByClassName("review-slide");
+  if (n > x.length) {reviewIndex = 1}
+  if (n < 1) {reviewIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[reviewIndex-1].style.display = "block";  
+}
+
+// Auto-advance review slides
+setInterval(function() {
+  plusReviews(1);
+}, 7000); // Change review every 7 seconds
+</script>
+
+<hr>
+<footer class="w3-center">
+  <p class="footer-text">&copy; 2024 All Rights Reserved. Client First Business & Financial Consultancy Services</p>
+  <a href="https://www.instagram.com/client.frist.bfcsl/" target="_blank"><img src="instagram.png" alt="intagram" class="social-icon"></a>
+  <a href="https://www.facebook.com/profile.php?id=61554867163860" target="_blank"><img src="facebook.png" alt="facebook" class="social-icon"></a>
+  <a href="https://wa.me/+18682796719" target="_blank"><img src="whatsapp.png" alt="whatsapp" class="social-icon"></a>
+  <a href="mailto:clientfirstbusinesssolutions@gmail.com" target="_blank"><img src="mail.png" alt="gmail" class="social-icon"></a>
+</footer>
+
+<br>
+</body>
+</html>
